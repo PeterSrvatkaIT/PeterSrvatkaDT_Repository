@@ -11,6 +11,7 @@
      *****************
     *******************
 */
+// zmena stvrtok
 public class PrintTriangle {
     public static void main(String[] args) {
         int size = 10;
