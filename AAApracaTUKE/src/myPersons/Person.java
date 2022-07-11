@@ -2,21 +2,19 @@ package myPersons;
 
 public class Person {
     private String name;
-    private int age;
+    private int age =5;
 
     public Person(String name) {
-        this(name, 0);
+        this(name, 5);
         this.name = name;
     }
-
 
 
     public Person(String name, int age) {
         if (isValidAge(age)) {
             this.age = age;
-            this.name=name;
-        }
-        else {
+            this.name = name;
+        } else {
             this.name = name;
             this.age = 0;
         }
@@ -33,8 +31,9 @@ public class Person {
     public int getAge() {
         return age;
     }
-    private boolean isValidAge (int ageNew) {
-        return ageNew >0 && ageNew <=150;
+
+    private boolean isValidAge(int ageNew) {
+        return ageNew > 0 && ageNew <= 150;
     }
 
 
@@ -52,4 +51,5 @@ public class Person {
                 ", age=" + age +
                 '}';
     }
+
 }
