@@ -1,12 +1,7 @@
 package uiswing;
 
-import java.awt.Container;
-import java.awt.FlowLayout;
-import javax.swing.JButton;
-import javax.swing.JFrame;
-
-import java.awt.Dimension;
-import java.awt.ComponentOrientation;
+import javax.swing.*;
+import java.awt.*;
 
 public class FlowLayoutDemo {
     public static boolean RIGHT_TO_LEFT = false;

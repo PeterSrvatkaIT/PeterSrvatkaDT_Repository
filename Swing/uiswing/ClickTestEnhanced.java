@@ -1,14 +1,11 @@
 package uiswing;
 
-import java.awt.Color;
-import java.awt.Graphics;
-import java.awt.Point;
+import javax.swing.*;
+import java.awt.*;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseMotionListener;
 import java.util.LinkedList;
 import java.util.List;
-import javax.swing.JFrame;
-import javax.swing.JPanel;
 
 public class ClickTestEnhanced extends JPanel implements MouseMotionListener {
     private static final int MAX_POINTS = 250;

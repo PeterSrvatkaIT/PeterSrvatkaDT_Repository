@@ -1,4 +1,4 @@
-package shapes;
+package shapesPCKG;
 
 public class TestMoveShapes {
     public static void main(String[] args) {

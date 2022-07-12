@@ -1,10 +1,7 @@
 package uiswing;
 
-import java.awt.Component;
-import java.awt.Container;
-import javax.swing.BoxLayout;
-import javax.swing.JButton;
-import javax.swing.JFrame;
+import javax.swing.*;
+import java.awt.*;
 
 public class BoxLayoutDemo {
     public static void addComponentsToPane(Container pane) {

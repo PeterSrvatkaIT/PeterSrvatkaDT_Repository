@@ -1,8 +1,7 @@
 package uiswing;
 
+import javax.swing.*;
 import java.awt.*;
-import javax.swing.JButton;
-import javax.swing.JFrame;
 
 public class GridBagLayoutDemo {
     final static boolean shouldFill = true;

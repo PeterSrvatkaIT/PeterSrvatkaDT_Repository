@@ -1,9 +1,9 @@
 package uiswing;
 
-import java.awt.FlowLayout;
+import javax.swing.*;
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import javax.swing.*;
 
 public class EventDemo1 extends JFrame implements ActionListener {
     public EventDemo1() {

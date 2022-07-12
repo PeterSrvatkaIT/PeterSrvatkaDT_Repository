@@ -1,31 +1,28 @@
-package shapes;
+package shape;
 
-public class TriangleTest<size2> extends Shape{
+public class SquareTest extends Shape{
 
-    int size, size2;
-    public <size2> TriangleTest(int size) {
+    int size;
+    public SquareTest(int size) {
         this.size = size;
-
     }
 
-    public TriangleTest(int size, char color) {
+    public SquareTest( int size,char color) {
         super(color);
         this.size = size;
-
     }
 
     @Override       // define square
     public String toString() {
-        String s = "triangle\n";
+        String s = "square\n";
         for (int j = 0; j < size; j++) {
 
 
-            for (int i = 0; i < j+1; i++) {
+            for (int i = 0; i < size; i++) {
                 s += super.color;
                 s +="  ";
             }
             s+="\n";
-
         }
         return s;
     }

@@ -1,10 +1,7 @@
 package uiswing;
 
-import java.awt.Container;
-import java.awt.Insets;
-import java.awt.Dimension;
-import javax.swing.JButton;
-import javax.swing.JFrame;
+import javax.swing.*;
+import java.awt.*;
 
 public class AbsoluteLayoutDemo {
     public static void addComponentsToPane(Container pane) {

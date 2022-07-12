@@ -1,7 +1,7 @@
 package uiswing;
 
-import java.awt.*;
 import javax.swing.*;
+import java.awt.*;
 
 public class GridLayoutDemo {
     public final static boolean RIGHT_TO_LEFT = false;

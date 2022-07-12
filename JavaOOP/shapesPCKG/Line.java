@@ -1,4 +1,4 @@
-package shapes;
+package shapesPCKG;
 
 public class Line extends Shape {
     private final Point from;

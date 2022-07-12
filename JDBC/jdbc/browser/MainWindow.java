@@ -1,15 +1,12 @@
 package jdbc.browser;
 
-import java.sql.Connection;
-import java.sql.ResultSet;
-import java.sql.ResultSetMetaData;
-import java.sql.SQLException;
-import java.sql.Statement;
-import java.util.Vector;
-import javax.swing.JOptionPane;
+import jdbc.pool.ConnectionPool;
+
+import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
 import javax.swing.table.TableModel;
-import jdbc.pool.ConnectionPool;
+import java.sql.*;
+import java.util.Vector;
 
 public class MainWindow extends javax.swing.JFrame {
     public static final String DEFAULT_COMMAND = "SELECT * FROM student";

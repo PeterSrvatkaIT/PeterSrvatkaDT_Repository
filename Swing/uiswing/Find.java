@@ -1,7 +1,7 @@
 package uiswing;
 
-import java.awt.Component;
 import javax.swing.*;
+
 import static javax.swing.GroupLayout.Alignment.*;
 
 public class Find extends JFrame {

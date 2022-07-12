@@ -1,4 +1,4 @@
-package shapes;
+package shapesPCKG;
 
 public class Point extends Shape {
     private int x;

@@ -1,8 +1,8 @@
 package uiswing;
 
+import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import javax.swing.*;
 
 public class EventDemo3 extends JFrame {
     public EventDemo3() {

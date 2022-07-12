@@ -1,10 +1,6 @@
 package minesweeper.swingui;
 
-import java.awt.Color;
-import java.awt.Dimension;
-import java.awt.Font;
-import javax.swing.ImageIcon;
-import javax.swing.JLabel;
+import javax.swing.*;
 //import minesweeper.core.Clue;
 //import minesweeper.core.Mine;
 //import minesweeper.core.Tile;

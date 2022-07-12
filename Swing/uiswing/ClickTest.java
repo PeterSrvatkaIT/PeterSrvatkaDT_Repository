@@ -1,12 +1,9 @@
 package uiswing;
 
-import java.awt.Color;
-import java.awt.Graphics;
-import java.awt.Point;
+import javax.swing.*;
+import java.awt.*;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
-import javax.swing.JFrame;
-import javax.swing.JPanel;
 
 public class ClickTest extends JPanel implements MouseListener {
     private Point p;

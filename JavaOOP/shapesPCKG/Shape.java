@@ -1,4 +1,4 @@
-package shapes;
+package shapesPCKG;
 
 public abstract class Shape {
     private int color;
