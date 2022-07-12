@@ -1,32 +1,37 @@
 package shape;
 
-public class TriangleReverseTest<size2> extends Shape{
+public class RhombusTest<size2> extends Shape {
 
     int size, size2;
-    public <size2> TriangleReverseTest(int size) {
+
+    public <size2> RhombusTest(int size) {
         this.size = size;
+
 
     }
 
-    public TriangleReverseTest(int size, char color) {
+    public RhombusTest(int size,  char color) {
         super(color);
         this.size = size;
+
 
     }
 
     @Override       // define square
     public String toString() {
-        String s = "triangle\n";
+        String s = "rhombus\n";
         for (int j = 0; j < size; j++) {
 
-
-            for (int i = 0; i < j+1; i++) {
+            for (int i = 0; i < size; i++) {
                 s += super.color;
-                s +="  ";
+                s += "   ";
             }
-            s+="\n";
+
+            s += "\n";
+            s += "  ".repeat(j + 1);
 
         }
+
         return s;
     }
 

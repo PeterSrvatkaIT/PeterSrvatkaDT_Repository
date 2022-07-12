@@ -26,6 +26,7 @@ public class Line extends Shape {
         for (int i = 0; i < size; i++) {
             s += super.color;
         }
+        s+="\n";
         return s;
     }
 
