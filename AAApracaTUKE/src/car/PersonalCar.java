@@ -1,4 +1,4 @@
-package Car;
+package car;
 
 public class PersonalCar extends Car {
 

@@ -11,9 +11,10 @@ public class TestShapesMain {
                 new RectangleTest(5,3),
 //                new RectangleTest(2,6,'+'),
 //                new TriangleTest<>(5),
-                new TriangleTest<>(4,'$'),
+                new TriangleTest<>(5,'$'),
                 new TrapezoidTest(5,9, '-'),
-                new RhombusTest<>(8,'o')
+                new RhombusTest<>(5,'o'),
+                new SquareTestUseStringAppend(5,'@')
 
                 //, new Rectangle(10, 8), new Triangle(5), new Square(8), ...
                 //should print whatever shape there is, just needs to extend Shape

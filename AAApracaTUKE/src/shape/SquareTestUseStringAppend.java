@@ -1,28 +1,30 @@
 package shape;
 
-public class SquareTest extends Shape{
+public class SquareTestUseStringAppend extends Shape {
 
     int size;
-    public SquareTest(int size) {
+
+    public SquareTestUseStringAppend(int size) {
         this.size = size;
     }
 
-    public SquareTest( int size,char color) {
+    public SquareTestUseStringAppend(int size, char color) {
         super(color);
         this.size = size;
     }
 
     @Override       // define square
     public String toString() {
-        String s = "square\n";
+
+        StringBuilder sb = new StringBuilder();
+        sb.append("String to String square\n");
         for (int j = 0; j < size; j++) {
             for (int i = 0; i < size; i++) {
-                s += super.color;
-                s +="  ";
+                sb.append(super.color).append("  ");
             }
-            s+="\n";
+            sb.append("\n");
         }
-        return s;
+        return sb.toString();
     }
 
     @Override

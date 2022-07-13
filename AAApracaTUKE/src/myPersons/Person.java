@@ -1,6 +1,8 @@
 package myPersons;
 
-public class Person {
+
+
+public class Person implements Comparable<Person> {
     private String name;
     private int age =5;
 
@@ -52,4 +54,18 @@ public class Person {
                 '}';
     }
 
+    @Override
+    public int compareTo(Person o) {
+        int nameCompare=this.name.compareTo(o.name);
+//        if (this.name.compareTo(o.name)==0) {
+        if (nameCompare ==0) {
+            int ageCompare = this.age - o.age;
+            if(ageCompare !=0) {
+                return ageCompare;
+            }
+            return this.age-o.age;
+        }
+        return this.name.compareTo(o.getName());
+
+    }
 }
