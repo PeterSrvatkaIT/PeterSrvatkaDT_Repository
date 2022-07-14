@@ -9,8 +9,9 @@ public class Palindrom2 {
     }
 
     private static String comparePalindrom(String veta) {
+        veta = veta.toUpperCase();
         for (int i = 0; i < veta.length(); i++) {
-            if ((Character.toUpperCase(veta.charAt(i))) != (Character.toUpperCase(veta.charAt(veta.length() - i - 1)))) {
+            if ((veta.charAt(i)) != (Character.toUpperCase(veta.charAt(veta.length() - i - 1)))) {
                 return "Nie, nie je to palindrom";
             }
         }
